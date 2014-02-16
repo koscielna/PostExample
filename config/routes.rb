@@ -1,7 +1,10 @@
 PostExample::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  post 'send_data' => 'data#create'
+  post 'send_data' => 'data#send_data'
+  get 'show_json' => 'data#show_json'
+
+  root 'data#index'
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
