@@ -44,6 +44,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'haml'
+
 gem 'awesome_print'
 gem 'better_errors'
 gem 'binding_of_caller'
