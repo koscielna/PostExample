@@ -1,4 +1,6 @@
-- @items.each do |i|
-  .h2= i.name
-  .h4= i.title
-  .h4= i.date
+.container
+  - @items.each do |i|
+    %h2= i.name
+    %blockquote
+      %h3= i.title
+      %p= i.date.strftime("%d/%m/%Y : %H:%M")
