@@ -50,6 +50,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'haml'
+gem 'flatui-rails'
 
 gem 'awesome_print'
 gem 'better_errors'
